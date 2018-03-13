@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <!--cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+   
+     <style>
+        .row > div {
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: xx-large;
+        }
+
+         .row > div:nth-child(1) {
+             background-color: red;
+         }
+
+         .row > div:nth-child(3) {
+             background-color: green;
+         }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Grid:  must use class="container-fluid" from bootstrap-->
+    <div class="container-fluid">
+
+        <!-- Row: -->
+        <div class="row" style="margin:60px;margin-top:0;">
+
+            <!-- Colums: -->
+            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+
+
+
+            <!--
+
+    Extra small     |       <576px      |       col-xs
+    Small           |       ≥576px      |       col-sm
+    Medium          |       ≥768px      |       col-md
+    Large           |       ≥992px      |       col-lg
+    Extra large     |       ≥1200px     |       col-xl
+
+    evry row is 12 col (12 col = 100% width of the row)
+
+                    -->
+        </div>
+
+    </div>
+
+</body>
+</html>
